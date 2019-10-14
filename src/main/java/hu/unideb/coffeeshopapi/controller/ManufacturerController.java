@@ -16,24 +16,15 @@ public class ManufacturerController {
     @Autowired
     private ManufacturerService manufacturerService;
 
-    private final ManufacturerRepository manufacturerRepository;
-
-    public ManufacturerController(ManufacturerRepository manufacturerRepository) {
-        this.manufacturerRepository = manufacturerRepository;
-    }
-
-
     @GetMapping("/manufacturer")
     public List<Manufacturer> getAllManufacturer(){
         return manufacturerService.getAllManufacturer();
     }
 
-
     @GetMapping("/manufacturer/{id}")
     public Manufacturer getManufacturerById(@PathVariable String id){
-        return manufacturerRepository.getOne(Long.valueOf(id));
+        return manufacturerService.getManufacturerById(Long.valueOf(id));
     }
-
 
     @PostMapping("/manufacturer")
     public Manufacturer addManufacturer(@RequestBody Manufacturer manufacturer){
