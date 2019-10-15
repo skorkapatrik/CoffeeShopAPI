@@ -1,0 +1,97 @@
+swagger: "2.0"
+info:
+  description: "CoffeeShop API a Szoftverfejleszési módszertanok című tárgyhoz."
+  version: "0.0.1"
+  title: "CoffeShop API"
+
+host: "localhost:8080"
+basePath: "/api"
+tags:
+  - name: "Manufacturer"
+
+paths:
+
+  /manufacturer/{id}:
+    get:
+      tags:
+        - "Manufacturer"
+      summary: "Find manufacturer by ID"
+      description: "Returns a single manufacturer"
+      operationId: "getManufacturerById"
+      produces:
+        - "application/json"
+      parameters:
+        - name: "id"
+          in: "path"
+          description: "ID of manufacturer to return"
+          required: true
+          type: "number"
+      responses:
+        200:
+          description: "successful operation"
+          schema:
+            $ref: "#/definitions/Manufacturer"
+        400:
+          description: "Invalid ID supplied"
+        404:
+          description: "Manufacturer not found"
+
+  /manufacturer:
+    get:
+      tags:
+        - "Manufacturer"
+      summary: "Find all manufacturer"
+      description: "Returns all manufacturer"
+      operationId: "getAllManufacturer"
+      produces:
+        - "application/json"
+      responses:
+        200:
+          description: "successful operation"
+          schema:
+            $ref: "#/definitions/Manufacturer"
+        400:
+          description: "Invalid ID supplied"
+        404:
+          description: "Manufacturer not found"
+
+    post:
+      tags:
+        - "Manufacturer"
+      summary: "Add a new manufacturer to database"
+      description: ""
+      operationId: "addManufacturer"
+      consumes:
+        - "application/xml"
+      produces:
+        - "application/json"
+      parameters:
+        - in: "body"
+          name: "body"
+          description: "Manufacturer object that needs to be add to database"
+          required: true
+          schema:
+            $ref: "#/definitions/Manufacturer"
+      responses:
+        405:
+          description: "Invalid input"
+
+definitions:
+  Manufacturer:
+    type: "object"
+    required:
+      - "name"
+      - "country"
+      - "address"
+      - "phone"
+    properties:
+      id:
+        type: "number"
+      name:
+        type: "string"
+      country:
+        type: "string"
+      address:
+        type: "string"
+      phone:
+        type: "string"
