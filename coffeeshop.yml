@@ -61,8 +61,7 @@ paths:
       summary: "Add a new manufacturer to database"
       description: ""
       operationId: "addManufacturer"
-      consumes:
-        - "application/xml"
+
       produces:
         - "application/json"
       parameters:
