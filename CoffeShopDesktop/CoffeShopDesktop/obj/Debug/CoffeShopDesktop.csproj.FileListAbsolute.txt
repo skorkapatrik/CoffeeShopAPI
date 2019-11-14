@@ -1,0 +1,15 @@
+C:\Users\Fenevad\source\repos\CoffeShopDesktop\CoffeShopDesktop\bin\Debug\CoffeShopDesktop.exe.config
+C:\Users\Fenevad\source\repos\CoffeShopDesktop\CoffeShopDesktop\bin\Debug\CoffeShopDesktop.exe
+C:\Users\Fenevad\source\repos\CoffeShopDesktop\CoffeShopDesktop\bin\Debug\CoffeShopDesktop.pdb
+C:\Users\Fenevad\source\repos\CoffeShopDesktop\CoffeShopDesktop\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Fenevad\source\repos\CoffeShopDesktop\CoffeShopDesktop\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\Fenevad\source\repos\CoffeShopDesktop\CoffeShopDesktop\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Fenevad\source\repos\CoffeShopDesktop\CoffeShopDesktop\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\Fenevad\source\repos\CoffeShopDesktop\CoffeShopDesktop\obj\Debug\CoffeShopDesktop.csprojAssemblyReference.cache
+C:\Users\Fenevad\source\repos\CoffeShopDesktop\CoffeShopDesktop\obj\Debug\CoffeShopDesktop.Form1.resources
+C:\Users\Fenevad\source\repos\CoffeShopDesktop\CoffeShopDesktop\obj\Debug\CoffeShopDesktop.Properties.Resources.resources
+C:\Users\Fenevad\source\repos\CoffeShopDesktop\CoffeShopDesktop\obj\Debug\CoffeShopDesktop.csproj.GenerateResource.cache
+C:\Users\Fenevad\source\repos\CoffeShopDesktop\CoffeShopDesktop\obj\Debug\CoffeShopDesktop.csproj.CoreCompileInputs.cache
+C:\Users\Fenevad\source\repos\CoffeShopDesktop\CoffeShopDesktop\obj\Debug\CoffeShopDesktop.csproj.CopyComplete
+C:\Users\Fenevad\source\repos\CoffeShopDesktop\CoffeShopDesktop\obj\Debug\CoffeShopDesktop.exe
+C:\Users\Fenevad\source\repos\CoffeShopDesktop\CoffeShopDesktop\obj\Debug\CoffeShopDesktop.pdb
