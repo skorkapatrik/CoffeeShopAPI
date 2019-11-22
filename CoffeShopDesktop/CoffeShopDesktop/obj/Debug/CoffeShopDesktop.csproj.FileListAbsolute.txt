@@ -13,3 +13,4 @@ C:\Users\Fenevad\source\repos\CoffeShopDesktop\CoffeShopDesktop\obj\Debug\CoffeS
 C:\Users\Fenevad\source\repos\CoffeShopDesktop\CoffeShopDesktop\obj\Debug\CoffeShopDesktop.csproj.CopyComplete
 C:\Users\Fenevad\source\repos\CoffeShopDesktop\CoffeShopDesktop\obj\Debug\CoffeShopDesktop.exe
 C:\Users\Fenevad\source\repos\CoffeShopDesktop\CoffeShopDesktop\obj\Debug\CoffeShopDesktop.pdb
+C:\Users\Fenevad\source\repos\CoffeShopDesktop\CoffeShopDesktop\obj\Debug\CoffeShopDesktop.ManufactutersList.resources

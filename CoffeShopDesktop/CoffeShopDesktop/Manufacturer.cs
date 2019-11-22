@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace CoffeShopDesktop
 {
-    class Manufacturer
+    public class Manufacturer
     {
         [JsonProperty("id")]
         public int Id { get; set; }
